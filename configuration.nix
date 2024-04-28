@@ -10,7 +10,7 @@
   # Bootloader configuration
   boot.loader.grub = {
     enable = true;
-    device = "/dev/sda"; # set to your device, e.g., "/dev/sda"
+    device = "%InstallDisk%"; # set to your device, e.g., "/dev/sda"
   };
 
   # Enable networking
